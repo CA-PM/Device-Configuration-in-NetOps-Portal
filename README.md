@@ -1,6 +1,8 @@
 # Device Configuration in NetOps Portal
  Ability to view Spectrum NCM captured configs in the NetOps Portal
 
+ ![Configuration View](/config_view.png "Configuration View")
+
 ## Getting Started
  These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -94,6 +96,7 @@ Setup Browser View
 ![Browser View](/browser_view.png "Browser View")
 
 Go to a router device in Performance Center
+
 Click one of the cog wheels in the tabs, and select Add Tab.  Give it a name such as “Router Configuration”.
 Select a single pane format for the view, and add the “Browser View” to that single pane.  Configure the browser view with a title “Router Configuration” and URL:
 ```
@@ -108,7 +111,7 @@ Anytime the global sync task runs, or a new configuration is pushed to a router 
 To test you can manually run the global sync task.  This will also (on first run) pre-populate all of the html and configurations for your routers.
 
 ## Built With
-[inotifywait] (https://linux.die.net/man/1/inotifywait) - tool to leverage the kernel to monitor the directory for new files (and a ton of other stuff)
+[inotifywait](https://linux.die.net/man/1/inotifywait) - tool to leverage the kernel to monitor the directory for new files (and a ton of other stuff)
 
 ## Author
 * **Brian Jackson** - *Initial Work* - [email me](mailto:brian.jackson@broadcom.com)
