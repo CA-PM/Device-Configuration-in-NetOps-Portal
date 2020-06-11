@@ -97,7 +97,7 @@ Go to a router device in Performance Center
 Click one of the cog wheels in the tabs, and select Add Tab.  Give it a name such as “Router Configuration”.
 Select a single pane format for the view, and add the “Browser View” to that single pane.  Configure the browser view with a title “Router Configuration” and URL:
 ```
-http://ip_address_of_your_netops_portal:8181/pc/apps/user/NCM/index.{ItemName}.html
+http://ip_address_of_your_netops_portal:8181/pc/apps/user/NCM/configs/index.{ItemName}.html
 ```
 When entering the URL, you can use the URL parameter pull down list to get the {ItemName} and click “Append To URL” in the appropriate part of the URL.
 
