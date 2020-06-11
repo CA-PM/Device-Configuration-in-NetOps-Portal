@@ -51,9 +51,13 @@ mkdir /opt/ca/spectrum/NCM_Exports/format
 mkdir /opt/ca/spectrum/NCM_Exports/backup
 ```
 
-Spectrum system: Install inotify Tools.  Depending on the OS, you may have or my not have inotifywait installed or available via package.  Use your package manager to install, or build from source (see Built With below).
-Man Page: [inotifywait] (https://linux.die.net/man/1/inotifywait)
-Build Tutorial: [inotifywait] (http://jensd.be/248/linux/use-inotify-tools-on-centos-7-or-rhel-7-to-watch-files-and-directories-for-events)
+Spectrum system: Install inotify Tools.  
+
+Depending on the OS, you may have or my not have inotifywait installed or available via package.  Use your package manager to install, or build from source (see Built With below).
+
+
+[inotifywait man page:](https://linux.die.net/man/1/inotifywait)
+[inotifywait build tutorial:](http://jensd.be/248/linux/use-inotify-tools-on-centos-7-or-rhel-7-to-watch-files-and-directories-for-events)
 
 NetOps Portal system: Mount NFS Volume from Spectrum system
 
@@ -85,7 +89,9 @@ Spectrum system: Start the watcher script (note that nohup.out will be in the cu
 nohup /opt/ca/spectrum/NCM_Exports/bin/watch_it.sh &
 ```
 Setup Browser View
+
 ![Browser View](/browser_view.png "Browser View")
+
 Go to a router device in Performance Center
 Click one of the cog wheels in the tabs, and select Add Tab.  Give it a name such as “Router Configuration”.
 Select a single pane format for the view, and add the “Browser View” to that single pane.  Configure the browser view with a title “Router Configuration” and URL:
