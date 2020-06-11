@@ -9,6 +9,9 @@
 ### High Level Architecture
 ![High Level Architecture](/arch.png "High Level Architecture")
 
+### User Security Disclosure
+Please note that as implemented in NetOps version 19.2 and lower, there is no user filtering on tabs in device context views.  This means that ANY USER CAN VIEW CONFIGURATIONS.
+
 ### Prerequisites
 * Spectrum system running on Linux
 * Spectrum system has inotify tools installed (see Built With below)
@@ -113,8 +116,11 @@ To test you can manually run the global sync task.  This will also (on first run
 ## Built With
 [inotifywait](https://linux.die.net/man/1/inotifywait) - tool to leverage the kernel to monitor the directory for new files (and a ton of other stuff)
 
+## TO-DO
+I'm working on an implementation that will work with Menus; this will mean that you can secure who can view configurations by using roles.
+
 ## Author
-* **Brian Jackson** - *Initial Work* - [email me](mailto:brian.jackson@broadcom.com)
+* **Brian Jackson** - Broadcom - [email me](mailto:brian.jackson@broadcom.com)
 
 ## License
 
