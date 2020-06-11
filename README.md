@@ -116,7 +116,7 @@ To test you can manually run the global sync task.  This will also (on first run
 ## Built With
 [inotifywait](https://linux.die.net/man/1/inotifywait) - tool to leverage the kernel to monitor the directory for new files (and a ton of other stuff)
 
-## TO-DO
+## To-Do
 I'm working on an implementation that will work with Menus; this will mean that you can secure who can view configurations by using roles.
 
 ## Author
